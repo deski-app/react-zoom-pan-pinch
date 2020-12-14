@@ -19,6 +19,7 @@ export const initialState = {
     centerContent: true,
     wrapperClass: "",
     contentClass: "",
+    wrapperStyle: {}
   },
   wheel: {
     disabled: false,

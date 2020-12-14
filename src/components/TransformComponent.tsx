@@ -19,17 +19,19 @@ class TransformComponent extends React.Component {
         positionX,
         positionY,
         scale,
-        options: { wrapperClass, contentClass },
+        options: { wrapperClass, contentClass, wrapperStyle, contentStyle },
       },
     } = this.context;
 
     const style = {
       WebkitTransform: `translate(${positionX}px, ${positionY}px) scale(${scale})`,
       transform: `translate(${positionX}px, ${positionY}px) scale(${scale})`,
+      ...contentStyle
     };
     return (
       <div
         ref={this.wrapperRef}
+        style={wrapperStyle}
         className={`react-transform-component ${styles.container} ${wrapperClass}`}
       >
         <div

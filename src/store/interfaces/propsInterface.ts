@@ -1,4 +1,4 @@
-import { ReactNode } from "react";
+import { ReactNode, CSSProperties } from "react";
 
 export interface PropsList {
   scale?: number;
@@ -16,6 +16,8 @@ export interface PropsList {
     limitToBounds?: boolean;
     centerContent?: boolean;
     limitToWrapper?: boolean;
+    wrapperStyle?: CSSProperties
+    contentStyle?: CSSProperties
   };
   scalePadding?: {
     disabled?: boolean;

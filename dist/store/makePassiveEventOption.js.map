@@ -1,0 +1,1 @@
+{"version":3,"file":"makePassiveEventOption.js","sourceRoot":"","sources":["../../src/store/makePassiveEventOption.ts"],"names":[],"mappings":"AAAA,0EAA0E;AAC1E,iEAAiE;AACjE,gHAAgH;AAChH,IAAI,gBAAgB,GAAG,KAAK,CAAC;AAE7B,SAAS,sBAAsB,CAAC,OAAO;IACrC,OAAO,gBAAgB,CAAC,CAAC,CAAC,EAAE,OAAO,SAAA,EAAE,CAAC,CAAC,CAAC,OAAO,CAAC;AAClD,CAAC;AAED,eAAe,sBAAsB,CAAC"}

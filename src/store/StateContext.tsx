@@ -153,6 +153,10 @@ class StateProvider extends Component<StateContextProps, StateContextState> {
         this.handleTouchStop,
         passiveOption,
       );
+      document.addEventListener(
+        'dragstart', 
+        event => event.preventDefault(),
+        true)
     }
 
     // set bound for animations
